@@ -16,7 +16,7 @@ Finishing Odin Project - EAS
         ```
 
 # 3 - Button to screen top
-[ ] Prompt -> Removal -> Generation
+[x] Prompt -> Removal -> Generation
     1. Send user a popup asking for number of squares per side for new grid
     2. (entered)
     3. remove existing grid and new grid should be generated in same total space as prior -> 960px wide
