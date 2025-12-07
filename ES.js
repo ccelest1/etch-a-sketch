@@ -32,7 +32,7 @@ initialize_grid()
 function grid_behavior() {
 
     grid_container_node.addEventListener('mouseover', e => {
-        let randomColor = Math.floor(Math.random() * 16777215).toString(16);n
+        let randomColor = Math.floor(Math.random() * 16777215).toString(16);
         let node = e.target
         if (node.classList.contains('grid_node')) {
             node.style.backgroundColor = "#" + randomColor
