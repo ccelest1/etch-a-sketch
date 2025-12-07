@@ -8,6 +8,7 @@ function initialize_grid(dimension_input) {
         size = 16
     } else {
         size = dimension_input
+
     }
     // 960 / square size -> gives a decent ratio
     let total = size ** 2
@@ -16,7 +17,7 @@ function initialize_grid(dimension_input) {
 
     for (let i = 0; i < total; i++) {
         let grid_node = document.createElement('div')
-        grid_node.classList.add('grid_ode')
+        grid_node.classList.add('grid_node')
         grid_node.style.backgroundColor = 'white'
         grid_node.style.border = "1px solid black"
         grid_node.style.width = pixel_size + "px"
