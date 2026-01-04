@@ -1,4 +1,5 @@
 Finishing Odin Project - EAS
+Deployed -> [Link](https://ccelest1.github.io/etch-a-sketch/)
 
 # 1 - Webpage w/ 16*16 grid of square divs
 [x] Create divs w/ JS (for, iterate using children nodes and appending to a parent)
